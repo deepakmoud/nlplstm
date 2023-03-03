@@ -13,4 +13,6 @@ flask
 nltk
 re
 pickle
+keras
+tensorflow-cpu
 
