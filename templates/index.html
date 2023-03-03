@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+<title>Machine Learning Lab Experiment Deployment</title>
+<meta charset="UTF-8">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
+<style><!DOCTYPE html>
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
+
+<body>
+ 
+     
+<div class="" style="background-color:blue;" >
+<div class="clearfix">
+           
+<div class="col-md-12">
+<center><p style="font-size:40px;color:white;margin-top:10px;">Upgrade</p></center> 
+<center><p style="font-size:30px;color:white;margin-top:10px;">Session on NLP DL Deployment</p></center> 
+<center><p style="font-size:25px;color:white;margin-top:10px;">LSTM MODEL </p></center> 
+</div>
+</div>
+</div>
+
+<div class="login">
+<h2 >Naive Bayes classification Sentiment Analysis using Deep learning LSTM</h2>
+<h4>Developed by Deepak Moud</h4>
+<!-- Main Input For Receiving Query to our ML -->
+<form action="{{ url_for('review')}}"method="get">
+<div class="form-floating mb-3">
+
+<input type="text" class="form-control" id="text" name="text" step="any"  placeholder="0" required="required">
+<label for="textInput">Enter Review</label>
+</div>
+<button type="submit" class="btn btn-primary btn-block btn-large">Predict Review</button>
+</form>
+<br>
+<br>
+{{ prediction_text }}
+
+</div>
+
+<div class="" style="background-color:blue;" >
+<div class="clearfix">
+           
+<div class="col-md-12">
+ <center><p style="font-size:25px;color:white;margin-top:20px;">Sentiment Analysis</p></center> 
+</div>
+</div>
+</div>
+</body>
+</html>
