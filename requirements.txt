@@ -1,0 +1,16 @@
+
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+flask
+nltk
+re
+pickle
+
